@@ -1,3 +1,7 @@
++++ submission Date +++
+
+28/01/2025
+
 +++ Installation +++
 
 First clone the app.
@@ -10,6 +14,8 @@ Then install it using npm install.
 npx nodemon.
 
 +++ For Frontend +++ 
+
+Start the application using npm start command.
 
 In the Screens folder
 It has three screens Chat, Course and Timetable.
