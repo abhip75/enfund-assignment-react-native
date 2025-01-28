@@ -38,7 +38,7 @@ const TimetableList = ({ timetables, onDelete, onUpdate }) => {
   );
 };
 
-const { width } = Dimensions.get('window'); // Get screen width
+const { width } = Dimensions.get('window'); 
 
 const styles = StyleSheet.create({
   container: {
@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
     overflowX: 'scroll',
   },
   table: {
-    minWidth: 600, // Ensures table doesn't shrink too much on smaller screens
+    minWidth: 600, 
   },
   tableHeader: {
     flexDirection: "row",
@@ -82,7 +82,7 @@ const styles = StyleSheet.create({
     color: "#333",
     textAlign: "center",
     paddingVertical: 4,
-    minWidth: 100, // Minimum width for each column
+    minWidth: 100, 
   },
   headerCell: {
     fontWeight: "bold",
@@ -92,7 +92,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     gap: 8,
-    width: 160, // Fixed width for actions column
+    width: 160, 
   },
   updateButton: {
     backgroundColor: "#4CAF50",
