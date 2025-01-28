@@ -326,6 +326,9 @@ const TimetableScreen = () => {
       <Modal visible={modalVisible} animationType="slide" transparent={true}>
         <View style={styles.modalOverlay}>
           <View style={styles.modalContent}>
+          <Text style={styles.modalTitle}>
+              Add Timetable
+          </Text>
             <TextInput
               style={styles.input}
               placeholder="Subject"
@@ -372,6 +375,11 @@ const styles = StyleSheet.create({
     padding: 16,
     alignItems: "center",
     marginTop: 3
+  },
+  modalTitle: {
+    fontSize: 20,
+    marginBottom: 10,
+    textAlign: 'center'
   },
   toggleButton: {
     marginBottom: 16,
